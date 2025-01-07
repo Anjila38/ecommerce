@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_ecommerce/productDetails.dart';
+
+import 'productDetails.dart';
 
 class ProductListPage extends StatelessWidget {
   final String category;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'cartProvider.dart';
+import '../provider/cartProvider.dart';
 import 'paymentPage.dart';
 
 class CartPage extends StatelessWidget {

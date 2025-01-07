@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_ecommerce/productListpage.dart';
+
+import '../pages/productListpage.dart';
 
 class CategoryCard extends StatelessWidget {
   final IconData icon;

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:new_ecommerce/allProducts.dart';
-import 'package:new_ecommerce/cartPage.dart';
-import 'package:new_ecommerce/productDetails.dart';
-import 'package:new_ecommerce/productListpage.dart';
+
+import 'allProducts.dart';
+import 'cartPage.dart';
+import 'productDetails.dart';
+import 'productListpage.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -102,9 +103,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-
             const SizedBox(height: 20),
-
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: const Text(
@@ -137,9 +136,7 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-
             const SizedBox(height: 20),
-
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: const Text("Featured Products",
@@ -156,10 +153,7 @@ class HomePage extends StatelessWidget {
                 }).toList(),
               ),
             ),
-
             const SizedBox(height: 20),
-
-            
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: const Text("Best Sellers",
